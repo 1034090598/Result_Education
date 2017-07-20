@@ -1,0 +1,20 @@
+npm install react react-dom --save  //安装react
+npm install react-router --save		//安装react-router
+npm install react-redux --save-dev
+npm install redux --save-dev
+npm install redux-thunk --save-dev
+npm install babel-core babel-loader babel-preset-es2015 babel-preset-react --save-dev   //babel插件是webpack需要的解析器,可以解析jsx语法
+npm install video.js --save-dev
+npm install less --save-dev
+npm install less-loader --save-dev
+npm install --save-dev css-loader   //处理普通的.css 文件，需要安装 css-loader,style-loader
+npm install --save-dev style-loader
+npm install postcss-loader --save-dev   //不同浏览器，前缀不同
+npm install autoprefixer --save-dev   //不同浏览器，前缀不同
+npm install html-webpack-plugin@2 --save-dev //简化创建服务于 webpack bundle 的 HTML 文件
+npm install url-loader --save-dev      //css中包含图片
+npm install image-webpack-loader --save-dev     //引用图片文件
+npm install file-loader --save-dev
+npm install html-withimg-loader --save-dev //打包 HTML 文件中的图片资源
+npm install jquery --save-dev
+npm install extract-text-webpack-plugin –save-dev   //css分开打包
